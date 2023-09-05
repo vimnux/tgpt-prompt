@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Prompts can be found at:
+# ChatGPT prompts can be found at:
 # https://github.com/f/awesome-chatgpt-prompts
 
 
