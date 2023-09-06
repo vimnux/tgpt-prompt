@@ -45,5 +45,6 @@ while true; do
   
   echo -e "${reset}""${bold}""${magenta}""╭─ ""${role}""${reset}"
   echo -ne "${reset}""${bold}""${magenta}""╰─> ""${reset}"
-echo -e "$(tgpt -w  "\"${prompt} ${user_input}"\")\n" 
+  tgpt -w  "\"${prompt} ${user_input}"\" 
+  echo
 done
