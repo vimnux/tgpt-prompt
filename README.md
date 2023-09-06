@@ -11,19 +11,19 @@ https://github.com/f/awesome-chatgpt-prompts
 ### Installation
 Download the script with:
 
-<code>curl https://raw.githubusercontent.com/vimnux/tgpt-prompt/main/tgpt-prompt.sh -o tgpt-prompt.sh</code>
+    $ curl https://raw.githubusercontent.com/vimnux/tgpt-prompt/main/tgpt-prompt.sh -o tgpt-prompt.sh
 
 Make it executable and place it somewhere in your $PATH
 
 ### Usage
 
-<code>tgpt-prompt.sh number</code>
+    $ tgpt-prompt.sh number
 
-Where 'number' is the number of the prompt that you want to use.
+Where number is the number of the prompt that you want to use.
 
 Example:
 
-<code>tgpt-prompt.sh 3</code>
+    $ tgpt-prompt.sh 3
 
 will give you the "Act as a Emoji Translator" prompt.
 
@@ -41,4 +41,4 @@ Chat history is not available yet for tgpt.
 
 See:
 
-<code>tgpt -cl</code>
+    $ tgpt -cl
