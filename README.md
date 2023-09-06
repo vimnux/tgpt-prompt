@@ -19,6 +19,7 @@ Make it executable and place it somewhere in your $PATH
 
     $ tgpt-prompt.sh number
 
+
 Where number is the number of the prompt that you want to use.
 
 Example:
@@ -27,6 +28,10 @@ Example:
 
 will give you the "Act as a Emoji Translator" prompt.
 
+Use rlwrap when you want readline functionality:
+
+    $ rlwrap tgpt-prompt.sh
+    
 ### TODO for you
 Add/remove prompts and customise them to your liking.
 
