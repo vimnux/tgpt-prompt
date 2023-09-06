@@ -42,7 +42,8 @@ while true; do
   if [ "$user_input" = exit ]; then
     exit 0
   fi
-  answer="$(tgpt -w  "\"${prompt} ${user_input}"\")"
+  
   echo -e "${reset}""${bold}""${magenta}""╭─ ""${role}""${reset}"
-  echo -e "${reset}""${bold}""${magenta}""╰─>""${reset}" "${answer}""\n"
+  echo -ne "${reset}""${bold}""${magenta}""╰─> ""${reset}"
+echo -e "$(tgpt -w  "\"${prompt} ${user_input}"\")\n" 
 done
